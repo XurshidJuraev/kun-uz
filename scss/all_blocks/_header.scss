@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.item{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    cursor: pointer;
+}
+.item:hover{
+    color: #1313bb;
+    transition: all 0.1s ease;
+}
+.header__select{
+    padding: 8px 25px;
+    background-color: #E7E7E7;
+    border-radius:50px;
+}
+.logo{
+    margin-top: 8px;
+    cursor: pointer;
+}
+.header__form{
+    margin-left: 80px;
+   margin-top: 5px;
+}
+.lupa{
+    margin-top: 10px;
+    margin-left: 20px;
+}

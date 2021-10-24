@@ -1,0 +1,36 @@
+.hudud{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #cecece;
+}
+.hudud_item{
+    border-right: 1px solid #888888;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    padding-bottom: 15px;
+    opacity: 1;
+}
+.hudud_item:hover{
+    color: #1313bb;
+    transition: all 0.1s ease;
+}
+.hudud_item:nth-child(15){
+    border-right: none;
+}
+.khalib{
+    width: 86px;
+    height: 43px;
+    margin-left: -50px;
+    cursor: pointer;
+    opacity: 1;
+}
